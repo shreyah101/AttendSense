@@ -1,0 +1,133 @@
+{
+  "selected_model": "Logistic Regression",
+  "seed": 42,
+  "rows": 1500,
+  "train_rows": 1200,
+  "test_rows": 300,
+  "features": [
+    "conducted",
+    "attended",
+    "current_percentage",
+    "remaining",
+    "recent_rate",
+    "historical_rate",
+    "consecutive_absences",
+    "semester_progress",
+    "weekly_frequency",
+    "threshold"
+  ],
+  "sklearn_version": "1.8.0",
+  "dataset_sha256": "b698bf94814b538f12f6814e66fb1b7315ec1260323f4747f3ad266207aee470",
+  "selection": "Highest mean training 5-fold F2 (recall weighted); fixed probability cutoff 0.5",
+  "models": {
+    "Dummy": {
+      "cv_f2": 0.841054882394868,
+      "cv_f2_std": 0.0010911839552669072,
+      "cv_precision": 0.5141666666666668,
+      "cv_recall": 1.0,
+      "accuracy": 0.5133333333333333,
+      "precision": 0.5133333333333333,
+      "recall": 1.0,
+      "f1": 0.6784140969162996,
+      "roc_auc": 0.5,
+      "confusion_matrix": [
+        [
+          0,
+          146
+        ],
+        [
+          0,
+          154
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "cv_f2": 0.8466678329213371,
+      "cv_f2_std": 0.016893106017228928,
+      "cv_precision": 0.856075865716005,
+      "cv_recall": 0.8444400734329924,
+      "accuracy": 0.88,
+      "precision": 0.8881578947368421,
+      "recall": 0.8766233766233766,
+      "f1": 0.8823529411764706,
+      "roc_auc": 0.9600160113858744,
+      "confusion_matrix": [
+        [
+          129,
+          17
+        ],
+        [
+          19,
+          135
+        ]
+      ]
+    },
+    "Random Forest": {
+      "cv_f2": 0.8440188831286217,
+      "cv_f2_std": 0.028100869537819716,
+      "cv_precision": 0.8363632236227824,
+      "cv_recall": 0.8460792027275111,
+      "accuracy": 0.8433333333333334,
+      "precision": 0.8407643312101911,
+      "recall": 0.8571428571428571,
+      "f1": 0.8488745980707395,
+      "roc_auc": 0.9445828144458281,
+      "confusion_matrix": [
+        [
+          121,
+          25
+        ],
+        [
+          22,
+          132
+        ]
+      ]
+    }
+  },
+  "shortage_counts": {
+    "0": 729,
+    "1": 771
+  },
+  "importance": {
+    "conducted": {
+      "mean": 0.16691301467957245,
+      "std": 0.02874208956256757
+    },
+    "attended": {
+      "mean": 0.22077716554447732,
+      "std": 0.0213481878194631
+    },
+    "current_percentage": {
+      "mean": 0.24534654952135987,
+      "std": 0.030669576212291414
+    },
+    "remaining": {
+      "mean": 0.011351613371023783,
+      "std": 0.011401140592306389
+    },
+    "recent_rate": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "historical_rate": {
+      "mean": 0.010474960526077704,
+      "std": 0.012860670272378034
+    },
+    "consecutive_absences": {
+      "mean": 0.0004435872709739663,
+      "std": 0.0018236617396339685
+    },
+    "semester_progress": {
+      "mean": 0.010191308083196293,
+      "std": 0.012129216320351606
+    },
+    "weekly_frequency": {
+      "mean": 0.001087696533795257,
+      "std": 0.002970060993918708
+    },
+    "threshold": {
+      "mean": 0.07936442361047505,
+      "std": 0.009506670854302282
+    }
+  }
+}

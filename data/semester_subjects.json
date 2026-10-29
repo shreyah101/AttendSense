@@ -1,0 +1,112 @@
+[
+  {
+    "id": "BCSE302L",
+    "code": "BCSE302L",
+    "name": "Database Systems - Theory",
+    "attended": 35,
+    "conducted": 43,
+    "type": "Theory",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE302P",
+    "code": "BCSE302P",
+    "name": "Database Systems - Lab",
+    "attended": 24,
+    "conducted": 30,
+    "type": "Lab",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE303L",
+    "code": "BCSE303L",
+    "name": "Operating Systems - Theory",
+    "attended": 35,
+    "conducted": 43,
+    "type": "Theory",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE303P",
+    "code": "BCSE303P",
+    "name": "Operating Systems - Lab",
+    "attended": 20,
+    "conducted": 26,
+    "type": "Lab",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE306L",
+    "code": "BCSE306L",
+    "name": "Artificial Intelligence",
+    "attended": 34,
+    "conducted": 42,
+    "type": "Theory",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE307L",
+    "code": "BCSE307L",
+    "name": "Compiler Design - Theory",
+    "attended": 35,
+    "conducted": 44,
+    "type": "Theory",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE307P",
+    "code": "BCSE307P",
+    "name": "Compiler Design - Lab",
+    "attended": 20,
+    "conducted": 26,
+    "type": "Lab",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE308L",
+    "code": "BCSE308L",
+    "name": "Computer Networks - Theory",
+    "attended": 34,
+    "conducted": 41,
+    "type": "Theory",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE308P",
+    "code": "BCSE308P",
+    "name": "Computer Networks - Lab",
+    "attended": 26,
+    "conducted": 30,
+    "type": "Lab",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BCSE355L",
+    "code": "BCSE355L",
+    "name": "Cloud Architecture Design",
+    "attended": 33,
+    "conducted": 41,
+    "type": "Theory",
+    "remaining": null,
+    "threshold": 75.0
+  },
+  {
+    "id": "BSTS301P",
+    "code": "BSTS301P",
+    "name": "Advanced Competitive Coding I",
+    "attended": 34,
+    "conducted": 41,
+    "type": "Skills",
+    "remaining": null,
+    "threshold": 75.0
+  }
+]
